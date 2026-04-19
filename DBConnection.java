@@ -7,7 +7,7 @@ public class DBConnection {
         return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/cricket_db",
                 "root",
-                "Apple@1212"
+                "ROOT_PASSWORD"
         );
     }
 }
